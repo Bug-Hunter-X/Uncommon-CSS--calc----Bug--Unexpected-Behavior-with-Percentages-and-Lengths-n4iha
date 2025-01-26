@@ -1,0 +1,14 @@
+/* bugSolution.css */
+
+#container {
+  width: 500px; /* Explicitly set the container width */
+  height: 300px;
+}
+
+#element {
+  width: calc(50% - 20px); /* Calculation now works as expected */
+  background-color: lightblue;
+  height: 100%;
+}
+
+/* Or use alternative methods such as adjusting the calculation to always be a fraction or percentage */
